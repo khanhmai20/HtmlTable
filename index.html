@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Learn HTML Basics</title>
+        <link rel="stylesheet" href="./style/index.css">
+    </head>
+
+    <body>
+        <h1>HTML Practice</h1>
+
+        <p> 
+            it defines a paragraph. Browsers automatically add some space (margin)
+            before and after each para element 
+        </p> 
+
+        <p>
+            HTTPS (also Called HTTP over Transport Layer Security (TLS), HTTP over SSL, and HTTP Secure) 
+            is a communication protocol for secure communication <br/> over a computer network which is widely used 
+            on the Internet. 
+        </p>
+        <hr>
+        <div>
+            <h3>The first Division Tag</h3>
+            <p>Unordered List</p>
+            <ul style="list-style-type:circle">
+                <li>Computer Science</li>
+                <li>Mathematics</li>
+                <li>Biochemistry</li>
+            </ul>
+            <p>Ordered List</p>
+            <ol type="A"> 
+                <li>Intro to Computer Programming</li>
+                <li>Computer Architecture</li>
+                <li>Database</li>
+            </ol>
+        </div>
+
+        <div> 
+            <h3>The second Division Tag</h3>
+            <p> I will try to finish this antra training as soon as possible <br/>
+                Testing some other features such as <i>Italic</i> or <strong>bold</strong><br/>
+                <span style="color:rgb(25, 119, 41)">This block inside the span tag will have greenish color</span>
+            </p>
+        </div>
+        
+        <p align = "Center"> <b>Viet Tech Event</b> <br/>
+            <i>Location: Downtown Seattle Washington</i> <br/>
+            Time: Even will happen on <U> September 18th at 6pm PDT</U> <br/>
+            <TT>Description: This is a networking event. Many proffessionals around Seattle area will meet up 
+                and share their proffession.
+            </TT>
+        </p>
+
+        <div>
+            <h3>Personal Information</h3>
+            <a href="https://www.facebook.com/heyitsthien" target="_blank"> Facebook</a>
+            <a href="https://www.linkedin.com/in/tri-luu-nt/" target="_top">Linkedin</a>
+            <a href="https://github.com/khanhmai20" target="_parent">Github</a> <br/>
+            <img src="./asset/IMG_0186.JPG" alt="Steve and Woz">
+        </div>
+
+        <div>
+            <h3 align="Center">Table Manipulation</h3>
+            <table border="2" align="Center" style="padding: 10px;" cellpadding="5">
+                
+                <tr>
+                    <th>Antra Department</th>
+                    <th>Antra Employee</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td colspan="3">Antra Chicago</td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Thien Huynh, Bellamy, Joseph</td>
+                    <td>&dollar;55000</td>
+                </tr>
+                
+                <tr>
+                    <td>Fullstack</td>
+                    <td>Khanh Mai, Joshue, Olatunde</td>
+                    <td>&dollar;67000</td>
+                </tr>
+                
+                <tr>
+                    <td>Front End</td>
+                    <td>Bao Le</td>
+                    <td>&dollar;65000</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" align="Center">Antra Seattle</td>
+                </tr>
+                <caption align="Bottom">Antra Inc</caption>
+            </table>
+        </div>
+
+        <div id="list">
+            <h3>Practice With Forms</h3>
+            <p>The following form will collect your personal information and send them back to vendor account.<br/>
+                <i>Please click the <b>submit</b> button after you finish</i>
+            </p>
+            <form name="personal_info" method="get" action="URL">
+                First Name: <input type="Text" name="Fname" size="15" maxlength="25"> <br>
+                Last Name: <input type="text" name="Lname" size="15" maxlength="25"> <br>
+                Phone No: <input type="text" name="Phone" size="15" maxlength="12"> <br>
+                <input type="Button" name="button" value="Submit">
+            </form>
+
+            <p><font color="Red">Please Enter your Username and Password below</font></p>
+            <form name="Authentication" method="get" action="URL">
+                Username: <input type="Text" name="uname" size="15" maxlength="25"><br>
+                Password: <input type="Password" name="password" size="15" maxlength="25"><br>
+                <input type="submit" name="submitB" value="log in"><br>
+            </form>
+
+            <p>Check box and Radio Box</p>
+            <form name="button" method="get" action="URL">
+                <input type="Checkbox" name="option1"> Classical Music
+                <input type="checkbox" name="option2"> Rock and Roll
+                <input type="checkbox" name="option3"> Rap Hiphop 
+                <br>
+                <input type="Radio"> Love it 
+                <input type="radio"> Neutral
+                <input type="radio"> Dislike
+                <br>
+            </form>
+        </div>
+        <p>I just install a live server in this machine</p>
+        <a href="./pages/firstpage.html" target="_blank">click me to jump to another page</a> <br>
+        <a href="./pages/homework.html" target="_blank">click me to jump to homework</a>
+    </body>  
+</html>     
