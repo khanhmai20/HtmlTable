@@ -1,0 +1,12 @@
+thead{ 
+    text-align: center;
+}
+
+td{
+    text-align: left;
+}
+
+#list { 
+    background-image: url('../asset/background.png');
+    background-size: cover;
+}
